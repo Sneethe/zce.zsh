@@ -246,6 +246,7 @@ zce-1-call () {
 zce () { with-zce zce-raw zce-searchin-read }
 
 zle -N zce
+bindkey -M vicmd 's' zce
 
 # zcompiling code.
 
